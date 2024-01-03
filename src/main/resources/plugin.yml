@@ -2,3 +2,10 @@ name: APITest
 version: '${project.version}'
 main: me.jadenp.apitest.APITest
 api-version: '1.20'
+depend:
+  - NotBounties
+commands:
+  apitest:
+    description: test api usages of NotBounties
+    default: true
+

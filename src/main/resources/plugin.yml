@@ -1,0 +1,4 @@
+name: APITest
+version: '${project.version}'
+main: me.jadenp.apitest.APITest
+api-version: '1.20'
